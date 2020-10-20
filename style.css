@@ -88,7 +88,12 @@ p {}
     flex-direction: row;
     align-items: center;
     width: auto;
+
     padding-top: 2vw;
+}
+
+.button p {
+    margin: 0;
 }
 
 .line {
@@ -98,17 +103,18 @@ p {}
     margin: 5px;
 }
 
-.button a {
+a {
     color: black;
 }
 
-.button a:hover {
+a:hover {
     color: white;
     text-decoration: none;
 }
 
-.button a:hover .line {
-    width: 75px;
+a:hover .line {
+    width: 65px;
+    background-color: white;
 }
 
 .slide_nr {
