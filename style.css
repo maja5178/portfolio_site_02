@@ -2,49 +2,118 @@ body {
     margin: 0;
 }
 
+img {
+    max-width: 100%;
+}
+
+
+/************************ Fonte *************************/
+
+h1 {}
+
+h2 {}
+
+h6 {}
+
+p {}
+
+/********************* Fonte SLUT ***********************/
+
+
+
+
+/********************* scroll-snap ***********************/
+
 .container-fluid {
     max-height: 100vh;
     overflow: scroll;
     scroll-snap-type: y mandatory;
     padding: 0;
-
 }
 
 .item {
     /*    border-bottom: 5px solid white;*/
     color: white;
-    background: blue;
+    background: #f0f0ff;
     display: flex;
+
     justify-content: center;
     align-items: center;
     height: 100vh;
     scroll-snap-align: start;
+    /*    padding-top: 10vw;*/
 }
 
 .item:nth-child(odd) {
     background: grey;
 }
 
-.item:last-child {
-    border: none;
+.row {
+    max-width: 100%;
 }
 
+/********************* scroll-snap SLUT ***********************/
 
 
+/*************************** intro  scroll *******************************/
 
-.mini_nav {
+
+/*************************** intro  scroll slut *******************************/
+
+/*
+.scroll_03 {
     display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 7rem;
+}*/
+
+.text {
+    transform: rotate(90deg);
+    width: 100%;
+    margin: 1vw;
 }
 
-.intro {
-    display: flex-wrap;
-    /*    max-height: 100vh;*/
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 3rem;
+
 }
 
+.button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+    padding-top: 2vw;
+}
 
-.arrow {
-    position: relative;
-    left: 45%;
+.line {
+    width: 55px;
+    height: 1px;
+    background-color: black;
+    margin: 5px;
+}
 
-    align-items: flex-end;
+.button a {
+    color: black;
+}
+
+.button a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.button a:hover .line {
+    width: 75px;
+}
+
+.slide_nr {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
 }
