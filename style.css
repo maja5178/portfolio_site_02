@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+
+.container-fluid {
+    max-height: 100vh;
+    overflow: scroll;
+    scroll-snap-type: y mandatory;
+    padding: 0;
+
+}
+
+.item {
+    /*    border-bottom: 5px solid white;*/
+    color: white;
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    scroll-snap-align: start;
+}
+
+.item:nth-child(odd) {
+    background: grey;
+}
+
+.item:last-child {
+    border: none;
+}
+
+
+
+
+.mini_nav {
+    display: flex;
+}
+
+.intro {
+    display: flex-wrap;
+    /*    max-height: 100vh;*/
+}
+
+
+.arrow {
+    position: relative;
+    left: 45%;
+
+    align-items: flex-end;
+}
