@@ -71,8 +71,10 @@ nav button:focus {
 
 .item {
     /*    border-bottom: 5px solid white;*/
+/*
     color: white;
     background: grey;
+*/
     display: flex;
 
     justify-content: center;
