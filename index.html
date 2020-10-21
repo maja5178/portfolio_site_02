@@ -9,7 +9,24 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
+    <!--h2 font-->
+    <!------- Yeseva ------->
+    <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+
+    <!--h6 font-->
+    <!------- Alice ------->
+    <!--    <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">-->
+
+    <!------- Philosopher ------->
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+
+    <!--p font-->
+    <!------- Dosis ------->
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!------- Karla ------->
+    <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
 
     <title>Maja Kepler</title>
 
@@ -20,8 +37,10 @@
 
 <body>
 
-    <nav class="navbar fixed-top navbar-expand-fluid navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">Maja Kepler</a>
+    <nav class="navbar fixed-top navbar-expand-fluid navbar-light bg-none">
+        <a class="navbar-brand" href="index.html">
+            <h3>MK</h3>
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -29,11 +48,11 @@
             <div class="navbar-nav">
 
                 <a class="nav-link active" href="">Projekter <span class="sr-only">(current)</span></a>
-                <a class="nav-link" href="#">Chop&Pop</a>
-                <a class="nav-link" href="#">Plakater</a>
-                <a class="nav-link" href="#">21/5 Redesign</a>
-                <a class="nav-link" href="#">Halloween</a>
-                <a class="nav-link" href="#">Solsikken</a>
+                <a class="nav-link" href="choc_pop.html">Chop&Pop</a>
+                <a class="nav-link" href="plakat.html">Plakater</a>
+                <a class="nav-link" href="redesign.html">21/5 Redesign</a>
+                <a class="nav-link" href="animationer.html">Halloween</a>
+                <a class="nav-link" href="solsikken.html">Solsikken</a>
 
 
                 <a class="nav-link active" href="">Info<span class="sr-only">(current)</span></a>
@@ -45,10 +64,32 @@
 
 
     <div class="container-fluid">
+        <div class="item start">
+            <div class="row ">
+                <div class="col-10 offset-1 col-md-4 offset-md-4">
+                    <img src="billeder/produkt_billede.JPG" alt="">
+                </div>
+                <div class="col-12 text-center">
+                    <h1>Maja Kepler</h1>
+                </div>
+            </div>
+            <div class="row justify-content-center row_width mini_nav">
+                <div class="col-4 col-md-2 text-center"> <a href="om_mig.html">Om mig</a></div>
+                <div class="col-4 col-md-2 text-center"> <a href="kontakt.html">Kontakt</a></div>
+            </div>
+            <div class="row rotate ">
+                <div class="col-12 pt-1 ">
+                    <div class="bounce">
+                        <p>Scroll down</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
         <div class="item">
             <div class="row justify-content-center ">
                 <div class="col-1 pt-1">
-                    <p class="text">1.semster</p>
+                    <p class="text">3.semster</p>
                 </div>
                 <div class="col-10 col-md-5 p-0">
                     <img src="billeder/produkt_billede.JPG" alt="">
@@ -58,7 +99,7 @@
                     <h6>Content Marketing</h6>
 
 
-                    <a class="button" href="kontakt.html">
+                    <a class="button" href="choc_pop.html">
                         <div class="line"></div>
                         <p>Mere</p>
                     </a>
@@ -70,15 +111,117 @@
             </div>
         </div>
         <div class="item">
-            <div class="col">
-                <p>Choc&Pop</p>
+            <div class="row justify-content-center ">
+                <div class="col-1 pt-1">
+                    <p class="text">Fritid</p>
+                </div>
+                <div class="col-10 col-md-5 p-0">
+                    <img src="billeder/produkt_billede.JPG" alt="">
+                </div>
+                <div class="col-10 col-md-3 bottom ">
+                    <h2>Plakater</h2>
+                    <h6>Illustaror</h6>
+
+
+                    <a class="button" href="plakat.html">
+                        <div class="line"></div>
+                        <p>Mere</p>
+                    </a>
+
+                </div>
+                <div class=" col-md-1 pt-1 slide_nr">
+                    <p class="text d-none d-md-block ">2 - 5</p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="row justify-content-center ">
+                <div class="col-1 pt-1">
+                    <p class="text">2.semester</p>
+                </div>
+                <div class="col-10 col-md-5 p-0">
+                    <img src="billeder/produkt_billede.JPG" alt="">
+                </div>
+                <div class="col-10 col-md-3 bottom ">
+                    <h2>21/5</h2>
+                    <h6>Redesign</h6>
+
+
+                    <a class="button" href="redesign.html">
+                        <div class="line"></div>
+                        <p>Mere</p>
+                    </a>
+
+                </div>
+                <div class=" col-md-1 pt-1 slide_nr">
+                    <p class="text d-none d-md-block ">3 - 5</p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="row justify-content-center ">
+                <div class="col-1 pt-1">
+                    <p class="text">1.semster</p>
+                </div>
+                <div class="col-10 col-md-5 p-0">
+                    <img src="billeder/produkt_billede.JPG" alt="">
+                </div>
+                <div class="col-10 col-md-3 bottom ">
+                    <h2>Det hjemsøgte hus</h2>
+                    <h6>Animationer</h6>
+
+
+                    <a class="button" href="animationer.html">
+                        <div class="line"></div>
+                        <p>Mere</p>
+                    </a>
+
+                </div>
+                <div class=" col-md-1 pt-1 slide_nr">
+                    <p class="text d-none d-md-block ">4 - 5</p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="row justify-content-center ">
+                <div class="col-1 pt-1">
+                    <p class="text">1.semster</p>
+                </div>
+                <div class="col-10 col-md-5 p-0">
+                    <img src="billeder/produkt_billede.JPG" alt="">
+                </div>
+                <div class="col-10 col-md-3 bottom ">
+                    <h2>Solsikken</h2>
+                    <h6>UX</h6>
+
+
+                    <a class="button" href="solsikken.html">
+                        <div class="line"></div>
+                        <p>Mere</p>
+                    </a>
+
+                </div>
+                <div class=" col-md-1 pt-1 slide_nr">
+                    <p class="text d-none d-md-block ">5 - 5</p>
+                </div>
             </div>
         </div>
 
     </div>
 
-    <footer class="fixed-bottom">
-        <p>lavet af maja</p>
+    <footer class="fixed-bottom container">
+        <div class="row offset-md-4 ">
+            <div class="col-md-5 text-center">
+                <p class="d-none d-md-block">Maja Kepler</p>
+            </div>
+            <div class="col-12 col-md-7">
+                <a class="button_02 " href="kontakt.html">
+                    <p>Skal vi arbejde sammen</p>
+                    <div class="line"></div>
+                </a>
+            </div>
+        </div>
+
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

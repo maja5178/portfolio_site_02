@@ -9,17 +9,55 @@ img {
 
 /************************ Fonte *************************/
 
-h1 {}
+h1 {
+    font-family: 'Yeseva One', cursive;
 
-h2 {}
+    font-size: 3.6rem;
+}
 
-h6 {}
+h2 {
+    font-family: 'Yeseva One', cursive;
 
-p {}
+    font-size: 3.2rem;
+}
 
-/********************* Fonte SLUT ***********************/
+h3 {
+    font-family: 'Yeseva One', cursive;
 
+    font-size: 1.5rem;
+}
 
+h6 {
+    /*    font-family: 'Alice',
+serif;*/
+    font-family: 'Philosopher', sans-serif;
+
+}
+
+p {
+
+    font-family: 'Dosis',
+        sans-serif;
+    font-weight: 500;
+
+    letter-spacing: .8px
+        /*
+    font-family: 'Karla',
+    sans-serif;
+*/
+
+}
+
+/********************* Fonte SLUT **********************/
+
+.navbar-light .navbar-toggler {
+    border: none;
+}
+
+nav button:focus {
+    outline: 1px dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+}
 
 
 /********************* scroll-snap ***********************/
@@ -34,7 +72,7 @@ p {}
 .item {
     /*    border-bottom: 5px solid white;*/
     color: white;
-    background: #f0f0ff;
+    background: grey;
     display: flex;
 
     justify-content: center;
@@ -45,7 +83,7 @@ p {}
 }
 
 .item:nth-child(odd) {
-    background: grey;
+    /*    background: grey;*/
 }
 
 .row {
@@ -55,18 +93,76 @@ p {}
 /********************* scroll-snap SLUT ***********************/
 
 
-/*************************** intro  scroll *******************************/
-
-
-/*************************** intro  scroll slut *******************************/
-
-/*
-.scroll_03 {
-    display: flex;
-    flex-direction: row;
+/*************************** start  scroll *******************************/
+.start {
+    justify-content: center;
     align-items: flex-start;
-    margin: 7rem;
-}*/
+}
+
+.start {
+    display: flex;
+    flex-direction: column;
+
+    ;
+}
+
+
+
+.rotate {
+    writing-mode: vertical-rl;
+
+    position: absolute;
+    top: 80%;
+
+}
+
+
+
+.row_flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.row_width {
+    width: 100vw;
+}
+
+.col_width {
+    width: 100%;
+
+}
+
+.mini_nav a {
+
+    font-family: 'Dosis',
+        sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+
+    letter-spacing: .8px
+}
+
+.bounce {
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(2vw);
+    }
+
+    100% {
+        transform: translateY(0vw);
+    }
+
+}
+
+/*************************** start  scroll slut *******************************/
+
 
 .text {
     transform: rotate(90deg);
@@ -89,6 +185,8 @@ p {}
     align-items: center;
     width: auto;
 
+
+
     padding-top: 2vw;
 }
 
@@ -97,7 +195,7 @@ p {}
 }
 
 .line {
-    width: 55px;
+    width: 45px;
     height: 1px;
     background-color: black;
     margin: 5px;
@@ -110,11 +208,15 @@ a {
 a:hover {
     color: white;
     text-decoration: none;
+    transition: .5s ease;
+
 }
 
 a:hover .line {
     width: 65px;
     background-color: white;
+    transition: .5s ease;
+
 }
 
 .slide_nr {
@@ -122,4 +224,23 @@ a:hover .line {
     flex-direction: column;
     justify-content: flex-end;
 
+}
+
+
+/************************** Footer ***************************/
+footer {
+    padding-bottom: 1vw;
+}
+
+.button_02 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+
+}
+
+footer p {
+    margin: 0;
 }
