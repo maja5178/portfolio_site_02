@@ -45,8 +45,7 @@ h4 {
 
 h5 {
 
-    font-family: 'Dosis',
-        sans-serif;
+    font-family: 'Dosis', sans-serif;
     font-weight: 500;
     font-size: 2rem;
     letter-spacing: .8px
@@ -184,7 +183,7 @@ nav button:focus {
 
 .bounce {
     animation-name: bounce;
-    animation-duration: 2s;
+    animation-duration: 1.6s;
     animation-iteration-count: infinite;
     animation-fill-mode: both;
     animation-direction: alternate;
