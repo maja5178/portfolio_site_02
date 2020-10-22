@@ -1,0 +1,85 @@
+/*********************** Navbar ************************/
+.bg_color {
+    background-color: none;
+}
+
+@media only screen and (max-width: 1000px) {
+
+
+    .bg_color {
+        background-color: white;
+        ;
+    }
+}
+
+/*********************** Navbar slut ************************/
+
+/*********************** #projek ************************/
+#projekt {
+    margin-top: 5vw;
+}
+
+/*********************** #projek slut ************************/
+
+/*********************** #Overskrift ************************/
+
+
+
+#overskrift {
+    margin-top: 18%;
+}
+
+#overskrift .over_end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.v_name {
+    writing-mode: vertical-rl;
+
+    position: absolute;
+    top: 75%;
+    left: 0%;
+    position: fixed;
+    z-index: 10
+}
+
+.v_name,
+.v_name_p p {
+    font-size: 1.7rem;
+}
+
+.v_name_p {
+    writing-mode: vertical-rl;
+
+    position: absolute;
+    top: 79%;
+    left: 0%;
+    position: fixed;
+    z-index: 10
+}
+
+/*********************** #Overskrift slut  ************************/
+/***************************** #about *****************************/
+
+
+#about {
+    margin-top: 5vw;
+}
+
+
+/***************************** #about slut *****************************/
+
+
+
+/***************************** footer *****************************/
+
+
+footer {
+    background-color: white;
+
+}
+
+
+/***************************** footer slut *****************************/
