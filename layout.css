@@ -40,13 +40,15 @@
 
     position: absolute;
     top: 75%;
+    height: 100%;
     left: 0%;
     position: fixed;
     z-index: 10
 }
 
 .v_name,
-.v_name_p p {
+.v_name_p,
+.v_name_ani p {
     font-size: 1.7rem;
 }
 
@@ -55,9 +57,21 @@
 
     position: absolute;
     top: 79%;
+    height: 100%;
     left: 0%;
     position: fixed;
-    z-index: 10
+
+}
+
+.v_name_ani {
+    writing-mode: vertical-rl;
+
+    position: absolute;
+    top: 63%;
+    height: 100%;
+    left: 0%;
+    position: fixed;
+
 }
 
 /*********************** #Overskrift slut  ************************/
