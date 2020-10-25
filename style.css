@@ -72,6 +72,12 @@ p {
 
 }
 
+.p_2 {
+    font-size: 1.2rem;
+
+}
+
+
 /********************* Fonte SLUT **********************/
 
 .navbar-light .navbar-toggler {
@@ -81,6 +87,17 @@ p {
 nav button:focus {
     outline: 1px dotted;
     outline: 0px auto -webkit-focus-ring-color;
+}
+
+nav a {
+    font-family: 'Dosis',
+        sans-serif;
+    font-weight: 400;
+}
+
+nav a img {
+/*    width: 20%;*/
+
 }
 
 .bg_color {
@@ -150,7 +167,7 @@ nav button:focus {
     writing-mode: vertical-rl;
 
     position: absolute;
-    top: 82%;
+    top: 80%;
 
 
 }
@@ -245,7 +262,7 @@ a {
 }
 
 a:hover {
-    color: white;
+    color: #cecece;
     text-decoration: none;
     transition: .5s ease;
 
@@ -253,7 +270,7 @@ a:hover {
 
 a:hover .line {
     width: 65px;
-    background-color: white;
+    background-color: #cecece;
     transition: .5s ease;
 
 }
