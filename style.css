@@ -2,15 +2,23 @@ body {
 
     margin: 0;
 
-    background-image: url('billeder/baggrund_10-100.jpg');
+    background-image: url('billeder/baggrund_15-100.jpg');
 
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-position: 45% 5%;
+    background-position: 50%;
+
 
 }
 
+@media only screen and (max-width: 760px) {
+    body {
+        background-image: url('billeder/baggrund_mobile_04-100.jpg');
+    }
+
+
+}
 
 
 img {
@@ -285,7 +293,7 @@ a {
 }
 
 a:hover {
-    color: #cecece;
+    color: #F7AE59;
     text-decoration: none;
     transition: .5s ease;
 
@@ -293,7 +301,7 @@ a:hover {
 
 a:hover .line {
     width: 65px;
-    background-color: #cecece;
+    background-color: #F7AE59;
     transition: .5s ease;
 
 }

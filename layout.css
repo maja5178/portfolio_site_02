@@ -37,7 +37,7 @@ body {
 
 
 /*********************** #projek ************************/
-#projekt {
+.projekt {
     margin-top: 5vw;
 }
 
@@ -45,13 +45,15 @@ body {
 
 /*********************** #Overskrift ************************/
 
-
-
 #overskrift {
+    height: 100vh;
+}
+
+.overskrift {
     margin-top: 18%;
 }
 
-#overskrift .over_end {
+.overskrift .over_end {
     display: flex;
     justify-content: flex-end;
 }
@@ -150,7 +152,7 @@ body {
 
 
 footer {
-    background-color: white;
+    background-color: none;
 
 }
 
