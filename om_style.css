@@ -1,0 +1,36 @@
+.hover_img {
+    position: relative;
+
+}
+
+.img_1 {
+    position: absolute;
+}
+
+.img_2 {
+    position: absolute;
+}
+
+.img_1:hover {
+    opacity: 0%;
+    transition: .5s ease;
+}
+
+.hover_img {
+    animation-name: pulse;
+    animation-duration: 1.4s;
+    animation-iteration-count: infinite;
+    /*    animation-fill-mode:;*/
+    animation-timing-function: ease-out;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1.0);
+    }
+
+    100% {
+        transform: scale(1.02);
+    }

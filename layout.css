@@ -1,3 +1,19 @@
+body {
+
+    background-image: url('billeder/baggrund_08-100.jpg');
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 45% 5%;
+
+}
+
+
+}
+
+
+
 /*********************** Navbar ************************/
 .bg_color {
     background-color: none;
@@ -13,6 +29,12 @@
 }
 
 /*********************** Navbar slut ************************/
+.baggrund_color {
+    background-color: white;
+    width: 100vw;
+    height: auto,
+}
+
 
 /*********************** #projek ************************/
 #projekt {
@@ -68,6 +90,39 @@
 
     position: absolute;
     top: 63%;
+    height: 100%;
+    left: 0%;
+    position: fixed;
+
+}
+
+.v_name_choc {
+    writing-mode: vertical-rl;
+
+    position: absolute;
+    top: 76%;
+    height: 100%;
+    left: 0%;
+    position: fixed;
+
+}
+
+.v_name_21 {
+    writing-mode: vertical-rl;
+
+    position: absolute;
+    top: 85%;
+    height: 100%;
+    left: 0%;
+    position: fixed;
+
+}
+
+.v_name_sol {
+    writing-mode: vertical-rl;
+
+    position: absolute;
+    top: 77%;
     height: 100%;
     left: 0%;
     position: fixed;
