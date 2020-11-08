@@ -2,7 +2,7 @@ body {
 
     margin: 0;
 
-    background-image: url('billeder/baggrund_19-100.jpg');
+    background-image: url('billeder/baggrund_21-100.jpg');
 
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -12,16 +12,7 @@ body {
 
 }
 
-@media only screen and (max-width: 760px) {
-    body {
-        background-image: url('billeder/baggrund_mobile_05-100.jpg');
-    }
 
-    .baggrund_img {
-        background-image: url('billeder/baggrund_07-100.jpg');
-
-    }
-}
 
 
 img {
@@ -35,6 +26,28 @@ img {
     background-size: cover;
     background-position: 50%;
 }
+
+@media only screen and (max-width: 760px) {
+    body {
+        background-image: url('billeder/baggrund_mobile_07-100.jpg');
+    }
+
+    .baggrund_img {
+        display: none
+    }
+}
+
+/************************ Farver ****************************/
+.f_orange {
+    color: #E15650;
+
+}
+
+.f_yellow {
+    color: #FCA15B;
+}
+
+/************************ Farver ****************************/
 
 /************************ Fonte *************************/
 
@@ -283,6 +296,7 @@ nav a img {
 
 
     padding-top: 2vw;
+
 }
 
 .button p {
@@ -299,7 +313,7 @@ nav a img {
 .line_02 {
     width: 1px;
     height: 125px;
-    background-color: black;
+    background-color: #E15650;
     margin-top: 10px;
 
 }
@@ -317,7 +331,7 @@ a {
 }
 
 a:hover {
-    color: #F7AE59;
+    color: #F67E71;
     text-decoration: none;
     transition: .5s ease;
 
@@ -325,7 +339,7 @@ a:hover {
 
 a:hover .line {
     width: 65px;
-    background-color: #F7AE59;
+    background-color: #F67E71;
     transition: .5s ease;
 
 }
