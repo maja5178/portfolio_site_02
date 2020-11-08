@@ -2,7 +2,7 @@ body {
 
     margin: 0;
 
-    background-image: url('billeder/baggrund_15-100.jpg');
+    background-image: url('billeder/baggrund_19-100.jpg');
 
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -14,10 +14,13 @@ body {
 
 @media only screen and (max-width: 760px) {
     body {
-        background-image: url('billeder/baggrund_mobile_04-100.jpg');
+        background-image: url('billeder/baggrund_mobile_05-100.jpg');
     }
 
+    .baggrund_img {
+        background-image: url('billeder/baggrund_07-100.jpg');
 
+    }
 }
 
 
@@ -26,10 +29,11 @@ img {
 }
 
 .baggrund_img {
-    background-image: url('billeder/om_mig.jpg');
+    background-image: url('billeder/baggrund_18-100.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-position: 50%;
 }
 
 /************************ Fonte *************************/
@@ -199,6 +203,7 @@ nav a img {
 
     position: absolute;
     top: 80%;
+    left: 0%;
 
 
 }
@@ -252,9 +257,12 @@ nav a img {
 
 
 .text {
+
     transform: rotate(90deg);
-    /*    width: 100%;*/
+
     margin: 1vw;
+
+
 }
 
 
@@ -285,7 +293,23 @@ nav a img {
     width: 45px;
     height: 1px;
     background-color: black;
-    margin: 5px;
+    margin: 5px
+}
+
+.line_02 {
+    width: 1px;
+    height: 125px;
+    background-color: black;
+    margin-top: 10px;
+
+}
+
+.boxx {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
 }
 
 a {
