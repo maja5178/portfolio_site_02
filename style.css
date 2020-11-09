@@ -33,7 +33,8 @@ img {
     }
 
     .baggrund_img {
-        display: none
+        background-image: url('billeder/baggrund_mobile_08-100.jpg');
+        /*        display: none*/
     }
 }
 
@@ -314,6 +315,14 @@ nav a img {
     width: 1px;
     height: 125px;
     background-color: #E15650;
+    margin-top: 10px;
+
+}
+
+.line_03 {
+    width: 1px;
+    height: 125px;
+    background-color: #FCA15B;
     margin-top: 10px;
 
 }
